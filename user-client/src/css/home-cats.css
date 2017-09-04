@@ -1,0 +1,76 @@
+.home-cats {
+  padding-bottom: 9px;
+}
+
+.home-cats svg {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+
+.home-cats .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-cats .icon {
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.home-cats .title {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.home-cats .fast-food .icon {
+  background-color: #78B0FF;
+}
+
+.home-cats .dinner .icon {
+  background-color: #FA7070;
+}
+
+.home-cats .shop .icon {
+  background-color: #78B0FF;
+}
+
+.home-cats .tea .icon {
+  background-color: #FFAF48;
+}
+
+.home-cats .deliver .icon {
+  background-color: #FFCE56;
+}
+
+.home-cats .fruit .icon {
+  background-color: #9BDE56;
+}
+
+.home-cats .best .icon {
+  background-color: #FFAF48;
+}
+
+.home-cats .all .icon {
+  background-color: #60D4E1;
+}
+
+.slider-wrap {
+  overflow: hidden;
+  position: relative;
+  height: 350px;
+}
+.slider-wrap #slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-wrap #slider .slide {
+  flex-shrink: 0;;
+}
